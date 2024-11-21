@@ -18,8 +18,8 @@ const Navbar = () => {
       </div>
 
       <div className="hidden lg:flex flex-1 justify-center space-x-4">
-        <a className="btn btn-sm btn-ghost">Services</a>
         <a className="btn btn-sm btn-ghost">About</a>
+        <a className="btn btn-sm btn-ghost">Services</a>
         <a className="btn btn-sm btn-ghost">Projects</a>
         <a className="btn btn-sm btn-ghost">Testimonial</a>
       </div>

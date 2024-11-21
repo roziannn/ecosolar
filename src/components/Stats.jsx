@@ -23,7 +23,7 @@ const Stats = () => {
             <div className="stat-title">Regions</div>
           </div>
           <div className="stat">
-            <div className="stat-value">500+</div>
+            <div className="stat-value">300+</div>
             <div className="stat-title">Projects Completed</div>
           </div>
         </div>
