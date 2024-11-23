@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Mission from "./components/Mission";
 import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
+import Blogs from "./components/Blogs";
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Stats />
       <Mission />
       <Services />
-      <Projects />
+      {/* <Projects /> */}
       <Testimonial />
+      <Blogs />
       <Footer />
     </>
   );

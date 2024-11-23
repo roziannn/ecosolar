@@ -5,9 +5,8 @@ import CommercialImg from "../assets/commercial.jpg";
 
 export default function Service() {
   return (
-    <section className="py-12 min-h-screen flex items-center">
+    <section className="py-12 h-screen flex items-center">
       <div className="container max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0">
-        {/* Left Side: Text Content */}
         <div className="lg:w-1/2 text-start mb-10 lg:mb-0">
           <h2 className="text-2xl font-semibold text-gray-500">Our Services</h2>
           <p className="mt-4 max-w-lg text-4xl text-gray-800 font-bold leading-snug">
@@ -46,7 +45,6 @@ export default function Service() {
           </div>
         </div>
 
-        {/* Right Side: Images */}
         <div className="lg:w-9/12 grid grid-cols-3 gap-4">
           <div className="card bg-base-100 shadow-lg rounded-3xl overflow-hidden hover:shadow-xl transition-shadow duration-300 w-60">
             <figure className="relative h-60">
