@@ -1,10 +1,13 @@
 import React from "react";
 import About1 from "../assets/about-1.jpg";
+import logo from "../assets/logo.png";
+
 import { Play } from "lucide-react";
+import Stats from "./Stats";
 
 const Mission = () => {
   return (
-    <section className="py-12  flex items-center bg-gray-50">
+    <section className="py-12 flex items-center bg-gray-50">
       <div className="container max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center gap-14 space-y-8 lg:space-y-0">
         <figure className="relative w-1/2">
           <img src={About1} alt="Residential Solar" className="h-auto object-cover rounded-xl " />
@@ -13,13 +16,16 @@ const Mission = () => {
             <br /> Best Performance" <br />
             <span className="text-sm font-bold"> 16 Years Operation Working</span>
           </div>
-          <div className="absolute top-0 right-0 bg-white bg-opacity-30 backdrop-blur-sm leading-snug tracking-wide px-5 py-5 rounded-bl-2xl rounded-tr-lg text-2xl font-bold text-start">
-            <div className="bg-neutral-100 flex gap-2 px-5 py-3 text-sm items-center justify-between rounded-2xl">
+          <div className="absolute top-0 right-0 bg-white bg-opacity-30 backdrop-blur-sm leading-snug tracking-wide p-3 rounded-bl-2xl rounded-tr-lg text-2xl font-bold text-start">
+            <div className="bg-neutral-100 flex gap-2 px-5 py-2 text-sm items-center justify-between rounded-2xl">
               <div className="flex bg-green-500  rounded-full p-2">
                 <Play size={14} className="text-green-50" />
               </div>
               <p>Introduction</p>
             </div>
+          </div>
+          <div className="absolute bottom-4 left-4 text-white tracking-wide px-3 py-1 rounded-3xl text-xl text-start italic">
+            <img src={logo} alt="" width={120} className="opacity-75" />
           </div>
         </figure>
 

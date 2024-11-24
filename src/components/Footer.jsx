@@ -1,12 +1,14 @@
 import React from "react";
 import { Mail, Linkedin, Instagram } from "lucide-react";
+import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
     <>
       <footer className="footer mx-auto max-w-7xl px-4 mt-32 mb-10">
         <nav className="w-2/3 text-start">
-          <h1 className="text-3xl font-bold mb-3">ecosolar</h1>
+          <img src={logo} alt="logo" width={180} />
+
           <p className="leading-relaxed">Discover the power of solar energy and transform your life, choosing sustainable solutions. </p>
           <p className="py-3">
             Jl Nusantara Raya II Komp. Aren Jaya, <br />

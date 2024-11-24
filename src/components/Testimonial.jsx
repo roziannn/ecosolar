@@ -33,7 +33,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">
+            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">
               "Thanks to Ecosolar, we are now fully reliant on solar energy. The product is durable, has a modern design, and incredibly efficient. The best investment ever"
             </p>
             <p className="text-xs text-start font-semibold text-gray-500 mb-0">Operation Manager</p>
@@ -52,7 +52,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">"I've been using Ecosolar for 6 months now, and I couldn’t be happier. It’s a reliable product that has helped us save energy.."</p>
+            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">"I've been using Ecosolar for 6 months now, and I couldn’t be happier. It’s a reliable product that has helped us save energy.."</p>
             <p className="text-xs text-start font-semibold text-gray-500 mb-0">Facilities Engineer</p>
           </div>
           <div className="rounded-2xl bg-gray-50 p-6">
@@ -69,7 +69,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">
+            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">
               "The installation was simple, and our electricity bills have significantly decreased! Absolutely satisfied with its performance, and it's eco-friendly too!!"
             </p>
             <p className="text-xs text-start font-semibold text-gray-500 mb-0">Residential Homeowner</p>
@@ -88,7 +88,7 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">
+            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">
               "Perfect solution for reducing our carbon footprint. Its performance is stable even on cloudy days. The support team was also very helpful during the installation process"
             </p>
             <p className="text-xs text-start font-semibold text-gray-500 mb-0">Project Manager</p>

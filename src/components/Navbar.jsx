@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Menu, Eclipse } from "lucide-react";
+import { Menu } from "lucide-react";
+import logo from "../assets/logo.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,12 +11,7 @@ const Navbar = () => {
 
   return (
     <div className="navbar bg-base-100 text-center border-b border-slate-200 max-w-7xl px-4 mx-auto">
-      <div className="flex-1">
-        <a className="btn btn-ghost text-lg font-extrabold bg-gradient-to-r from-green-400 to-green-800 text-transparent bg-clip-text">
-          <Eclipse size={20} className="text-green-600" />
-          ecosolar
-        </a>
-      </div>
+      <img src={logo} alt="logo" width={172} />
 
       <div className="hidden lg:flex flex-1 justify-center space-x-4">
         <a className="btn btn-sm btn-ghost">About</a>

@@ -14,7 +14,7 @@ export default function Service() {
           </p>
           <div className="mt-10 space-y-8">
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 bg-green-200 p-3 rounded-full">
+              <div className="flex-shrink-0 bg-green-100 p-3 rounded-full">
                 <Bolt className="text-green-600 w-5 h-5" />
               </div>
               <div className="flex flex-col text-left">
@@ -24,7 +24,7 @@ export default function Service() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 bg-green-200 p-3 rounded-full">
+              <div className="flex-shrink-0 bg-green-100 p-3 rounded-full">
                 <Globe className="text-green-600 w-5 h-5" />
               </div>
               <div className="flex flex-col text-left">
@@ -34,7 +34,7 @@ export default function Service() {
             </div>
 
             <div className="flex items-start space-x-4">
-              <div className="flex-shrink-0 bg-green-200 p-3 rounded-full">
+              <div className="flex-shrink-0 bg-green-100 p-3 rounded-full">
                 <Shield className="text-green-600 w-5 h-5" />
               </div>
               <div className="flex flex-col text-left">

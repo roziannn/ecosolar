@@ -1,10 +1,12 @@
 import React from "react";
-import SolarFarm from "../assets/commercial.jpg";
-import Img2 from "../assets/solar-blog-1.jpg";
+import ImgBlog1 from "../assets/img-blog-1.jpg";
+import ImgBlog2 from "../assets/img-blog-2.jpg";
+import ImgBlog3 from "../assets/img-blog-3.jpg";
+import ImgBlog4 from "../assets/img-blog-4.jpg";
 
 const Blogs = () => {
   return (
-    <section className="mb-20 h-screen flex items-center">
+    <section className="mb-28 h-screen flex items-center">
       <div className="container max-w-7xl mx-auto px-4 ">
         <div className="text-start mb-8">
           <h2 className="text-lg font-semibold text-gray-500">Latest News</h2>
@@ -17,7 +19,7 @@ const Blogs = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
           <div className="w-auto">
             <figure>
-              <img src={SolarFarm} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
+              <img src={ImgBlog1} alt="Shoes" className="w-full h-72 object-fit rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
               <p className="text-gray-500 font-semibold text-xs my-2">Oct 15, 2024</p>
@@ -27,17 +29,17 @@ const Blogs = () => {
           </div>
           <div className="w-auto">
             <figure>
-              <img src={Img2} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
+              <img src={ImgBlog2} alt="Shoes" className="w-full h-72 object-fit rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
-              <p className="text-gray-500 font-semibold text-xs my-2">Oct 15, 2024</p>
+              <p className="text-gray-500 font-semibold text-xs my-2">Oct 6, 2024</p>
               <h2 className="text-lg font-semibold mb-3 w-full">Solar Power for Homes Is it Worth the Investment</h2>
               <p className=" text-gray-700 leading-relaxed">A benefits and costs of residential solar panel installations, and how homeowners can achieve long-term energy savings.</p>
             </div>
           </div>
           <div className="w-auto">
             <figure>
-              <img src={SolarFarm} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
+              <img src={ImgBlog3} alt="Shoes" className="w-full h-72 object-fit rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
               <p className="text-gray-500 font-semibold text-xs my-2">Nov 23, 2024</p>
@@ -47,7 +49,7 @@ const Blogs = () => {
           </div>
           <div className="w-auto">
             <figure>
-              <img src={SolarFarm} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
+              <img src={ImgBlog4} alt="Shoes" className="w-full h-72 object-fit rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
               <p className="text-gray-500 font-semibold text-xs my-2">Des 7, 2024</p>
