@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-base-100 text-center border-b border-slate-200 max-w-6xl px-4 mx-auto">
+    <div className="navbar bg-base-100 text-center border-b border-slate-200 max-w-7xl px-4 mx-auto">
       <div className="flex-1">
         <a className="btn btn-ghost text-lg font-extrabold bg-gradient-to-r from-green-400 to-green-800 text-transparent bg-clip-text">
           <Eclipse size={20} className="text-green-600" />
@@ -24,7 +24,7 @@ const Navbar = () => {
         <a className="btn btn-sm btn-ghost">Testimonial</a>
       </div>
 
-      <div className="flex-1 flex justify-end hidden lg:block">
+      <div className="justify-end hidden lg:block">
         <button className="btn btn-sm btn-ghost text-green-600">Contact Us</button>
       </div>
 

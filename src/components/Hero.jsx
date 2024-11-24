@@ -19,7 +19,7 @@ const Hero = () => {
           <h1 className="mb-5 text-7xl font-bold text-neutral-50">Sustainable Energy, Brighter Tomorrow</h1>
           <p className="mb-5 text-xl font-semibold">Building a Greener Future with Solar Technology</p>
           <div className="join mt-4 mb-8">
-            <button className="btn btn-md bg-green-500 hover:bg-green-600 join-item text-neutral-50 rounded-r-md">
+            <button className="btn btn-success join-item text-neutral-50 border-0 rounded-3xl">
               Get Started <MoveUpRight size={16} />
             </button>
           </div>

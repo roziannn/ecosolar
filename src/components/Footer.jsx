@@ -3,10 +3,10 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="footer text-base-content p-10 px-16 mt-20">
+      <footer className="footer  mx-auto max-w-7xl px-4 mt-20 mb-10">
         <nav className="w-2/3 text-start">
           <h1 className="text-2xl font-bold mb-3">ecosolar</h1>
-          <p>Discover the power of solar energy and transform your life, choosing sustainable solutions. </p>
+          <p className="leading-relaxed">Discover the power of solar energy and transform your life, choosing sustainable solutions. </p>
         </nav>
         <nav>
           <h6 className="text-lg font-semibold mb-3">Services</h6>
@@ -37,7 +37,7 @@ const Footer = () => {
           <a className="link link-hover mb-2">Privacy policy</a>
         </nav>
       </footer>
-      <footer className="footer text-base-content border-t border-base-300 px-16 py-6">
+      <footer className="footer  mx-auto max-w-7xl px-4 border-t border-base-300 py-6">
         <p>Ecosolar Industries. Providing reliable eco-tech since 2008</p>
       </footer>
     </>

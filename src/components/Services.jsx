@@ -8,7 +8,7 @@ export default function Service() {
     <section className="py-12 h-screen flex items-center">
       <div className="container max-w-7xl mx-auto px-4 flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0">
         <div className="lg:w-1/2 text-start mb-10 lg:mb-0">
-          <h2 className="text-2xl font-semibold text-gray-500">Our Services</h2>
+          <h2 className="text-lg font-semibold text-gray-500">Our Services</h2>
           <p className="mt-4 max-w-lg text-4xl text-gray-800 font-bold leading-snug">
             Empowering homes <br /> and businesses with <br /> solar energy
           </p>
