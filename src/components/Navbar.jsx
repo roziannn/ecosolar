@@ -25,7 +25,7 @@ const Navbar = () => {
       </div>
 
       <div className="justify-end hidden lg:block">
-        <button className="btn btn-sm btn-ghost text-green-600">Contact Us</button>
+        <button className="btn btn-sm btn-success rounded-3xl text-white">Contact Us</button>
       </div>
 
       <div className="navbar-end flex md:hidden">

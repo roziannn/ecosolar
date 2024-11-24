@@ -18,8 +18,8 @@ export default function Service() {
                 <Bolt className="text-green-600 w-5 h-5" />
               </div>
               <div className="flex flex-col text-left">
-                <h3 className="text-lg font-semibold text-gray-800">Reliable Energy Solutions</h3>
-                <p className="text-sm text-gray-700">Reliable and sustainable energy solutions.</p>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Reliable Energy Solutions</h3>
+                <p>Reliable and sustainable energy solutions.</p>
               </div>
             </div>
 
@@ -28,8 +28,8 @@ export default function Service() {
                 <Globe className="text-green-600 w-5 h-5" />
               </div>
               <div className="flex flex-col text-left">
-                <h3 className="text-lg font-semibold text-gray-800">Global Expertise</h3>
-                <p className="text-sm text-gray-700">Global expertise with local insights.</p>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Global Expertise</h3>
+                <p>Global expertise with local insights.</p>
               </div>
             </div>
 
@@ -38,8 +38,8 @@ export default function Service() {
                 <Shield className="text-green-600 w-5 h-5" />
               </div>
               <div className="flex flex-col text-left">
-                <h3 className="text-lg font-semibold text-gray-800">Safety & Security</h3>
-                <p className="text-sm text-gray-700">Ensuring safety and security in every solution.</p>
+                <h3 className="text-lg font-bold text-gray-800 mb-2">Safety & Security</h3>
+                <p>Ensuring safety and security in every solution.</p>
               </div>
             </div>
           </div>
@@ -50,55 +50,40 @@ export default function Service() {
             <figure className="relative h-60">
               <img src={ResidentImg} alt="Residential Solar" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white bg-white bg-opacity-20 border border-neutral-500 backdrop-blur-sm px-3 py-1 rounded-3xl text-sm font-semibold">Residential Solar</div>
+              <div className="absolute flex bottom-4 left-4 text-white bg-white bg-opacity-20 border border-neutral-500 backdrop-blur-sm px-3 py-1 rounded-3xl items-center font-semibold">
+                Residential Solar <MoveUpRight size={13} className="ml-2" />
+              </div>
             </figure>
 
             <div className="card-body p-5">
-              <div className="flex items-center justify-between">
-                <p className="text-sm text-start text-gray-600 leading-snug">
-                  Efficient solar solution <br /> for your home needs
-                </p>
-                <button className="w-7 h-7 flex items-center justify-center bg-success text-white rounded-full hover:bg-primary-focus" aria-label="Next">
-                  <MoveUpRight size={13} />
-                </button>
-              </div>
+              <p className="leading-snug">Efficient solar solution for your home needs</p>
             </div>
           </div>
 
           <div className="card bg-base-100 shadow-lg rounded-3xl overflow-hidden hover:shadow-xl transition-shadow duration-300 w-60">
-            <div className="card-body p-5">
-              <div className="flex items-center justify-between">
-                <p className="text-sm text-start text-gray-600 leading-snug">
-                  Energy storage with <br />
-                  advanced battery
-                </p>
-                <button className="w-7 h-7 flex items-center justify-center bg-success text-white rounded-full hover:bg-primary-focus" aria-label="Next">
-                  <MoveUpRight size={13} />
-                </button>
-              </div>
-            </div>
             <figure className="relative h-60">
               <img src={BatteryImg} alt="Residential Solar" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white bg-white bg-opacity-20 border border-neutral-500 backdrop-blur-sm px-3 py-1 rounded-3xl text-sm font-semibold">Battery Storage</div>
+              <div className="absolute flex bottom-4 left-4 text-white bg-white bg-opacity-20 border border-neutral-500 backdrop-blur-sm px-3 py-1 rounded-3xl items-center font-semibold">
+                Battery Storage <MoveUpRight size={13} className="ml-2" />
+              </div>
             </figure>
+            <div className="card-body p-5">
+              <p className="leading-snug">Energy storage with advanced battery </p>
+            </div>
           </div>
 
           <div className="card bg-base-100 shadow-lg rounded-3xl overflow-hidden hover:shadow-xl transition-shadow duration-300 w-60">
             <figure className="relative h-60">
               <img src={CommercialImg} alt="Residential Solar" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-              <div className="absolute bottom-4 left-4 text-white bg-white bg-opacity-20 border border-neutral-500 backdrop-blur-sm px-3 py-1 rounded-3xl text-sm font-semibold">Commercial Solar</div>
+              <div className="absolute flex bottom-4 left-4 text-white bg-white bg-opacity-20 border border-neutral-500 backdrop-blur-sm px-3 py-1 rounded-3xl items-center font-semibold">
+                Commercial Solar
+                <MoveUpRight size={13} className="ml-2" />
+              </div>
             </figure>
             <div className="card-body p-5">
-              <div className="flex items-center justify-between">
-                <p className="text-sm text-start text-gray-600 leading-snug">
-                  Scale your business <br /> with cost-effective
-                </p>
-                <button className="w-7 h-7 flex items-center justify-center bg-success text-white rounded-full hover:bg-primary-focus" aria-label="Next">
-                  <MoveUpRight size={13} />
-                </button>
-              </div>
+              <p className="leading-snug">Scale your business with cost-effective</p>
             </div>
           </div>
         </div>

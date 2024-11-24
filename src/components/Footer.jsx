@@ -1,12 +1,22 @@
 import React from "react";
+import { Mail, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
     <>
-      <footer className="footer  mx-auto max-w-7xl px-4 mt-20 mb-10">
+      <footer className="footer mx-auto max-w-7xl px-4 mt-32 mb-10">
         <nav className="w-2/3 text-start">
-          <h1 className="text-2xl font-bold mb-3">ecosolar</h1>
+          <h1 className="text-3xl font-bold mb-3">ecosolar</h1>
           <p className="leading-relaxed">Discover the power of solar energy and transform your life, choosing sustainable solutions. </p>
+          <p className="py-3">
+            Jl Nusantara Raya II Komp. Aren Jaya, <br />
+            East Bekasi, West Java
+          </p>
+          <div className="flex gap-3 mb-4">
+            <Mail className="text-gray-500 hover:text-green-700 cursor-pointer" />
+            <Linkedin className="text-gray-500 hover:text-green-700 cursor-pointer" />
+            <Instagram className="text-gray-500 hover:text-green-700 cursor-pointer" />
+          </div>
         </nav>
         <nav>
           <h6 className="text-lg font-semibold mb-3">Services</h6>
@@ -17,17 +27,16 @@ const Footer = () => {
         </nav>
         <nav>
           <h6 className="text-lg font-semibold mb-3">Company</h6>
-          <a className="link link-hover mb-2">About us</a>
-          <a className="link link-hover mb-2">Contact</a>
-          <a className="link link-hover mb-2">Jobs</a>
-          <a className="link link-hover mb-2">Press kit</a>
+          <a className="link link-hover mb-2">Location</a>
+          <a className="link link-hover mb-2">Branch Office</a>
+          <a className="link link-hover mb-2">Address</a>
+          <a className="link link-hover mb-2">Warehouse</a>
         </nav>
         <nav>
           <h6 className="text-lg font-semibold mb-3">Career</h6>
-          <a className="link link-hover mb-2">About us</a>
-          <a className="link link-hover mb-2">Contact</a>
-          <a className="link link-hover mb-2">Jobs</a>
-          <a className="link link-hover mb-2">Press kit</a>
+          <a className="link link-hover mb-2">Job</a>
+          <a className="link link-hover mb-2">Internship</a>
+          <a className="link link-hover mb-2">Program</a>
         </nav>
         <nav>
           <h6 className="text-lg font-semibold mb-3">Help</h6>

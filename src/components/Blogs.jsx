@@ -1,10 +1,10 @@
 import React from "react";
-import SolarFarm from "../assets/solar-farm.jpg";
+import SolarFarm from "../assets/commercial.jpg";
 import Img2 from "../assets/solar-blog-1.jpg";
 
 const Blogs = () => {
   return (
-    <section className="py-12 h-screen flex items-center">
+    <section className="mb-20 h-screen flex items-center">
       <div className="container max-w-7xl mx-auto px-4 ">
         <div className="text-start mb-8">
           <h2 className="text-lg font-semibold text-gray-500">Latest News</h2>
@@ -14,45 +14,45 @@ const Blogs = () => {
             <button className="btn btn-success rounded-3xl text-white">View More</button>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
           <div className="w-auto">
             <figure>
-              <img src={SolarFarm} alt="Shoes" className="w-full h-48 object-cover rounded-2xl" />
+              <img src={SolarFarm} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
-              <p className="text-green-700 font-semibold text-xs my-2">October 15, 2024</p>
+              <p className="text-gray-500 font-semibold text-xs my-2">Oct 15, 2024</p>
               <h2 className="text-lg font-semibold mb-3 w-full">The Future of Solar Panels Key Trends to Watch</h2>
-              <p className="text-sm text-gray-700 leading-relaxed">Explore emerging renewable energy trends, including solar advancements and storage innovations of clean power</p>
+              <p className="text-gray-700 leading-relaxed">Explore emerging renewable energy trends, including solar and storage innovations of clean power</p>
             </div>
           </div>
           <div className="w-auto">
             <figure>
-              <img src={Img2} alt="Shoes" className="w-full h-48 object-cover rounded-2xl" />
+              <img src={Img2} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
-              <p className="text-green-700 font-semibold text-xs my-2">October 15, 2024</p>
+              <p className="text-gray-500 font-semibold text-xs my-2">Oct 15, 2024</p>
               <h2 className="text-lg font-semibold mb-3 w-full">Solar Power for Homes Is it Worth the Investment</h2>
-              <p className="text-sm text-gray-700 leading-relaxed">A benefits and costs of residential solar panel installations, and how homeowners can achieve long-term energy savings.</p>
+              <p className=" text-gray-700 leading-relaxed">A benefits and costs of residential solar panel installations, and how homeowners can achieve long-term energy savings.</p>
             </div>
           </div>
           <div className="w-auto">
             <figure>
-              <img src={SolarFarm} alt="Shoes" className="w-full h-48 object-cover rounded-2xl" />
+              <img src={SolarFarm} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
-              <p className="text-green-700 font-semibold text-xs my-2">October 15, 2024</p>
-              <h2 className="text-lg font-semibold mb-3 w-full">Considerations Before Installing Solar Panels on Your Roof</h2>
-              <p className="text-sm text-gray-700 leading-relaxed">Learn about roof suitability, installation costs, and permits to consider before making the decision to go solar</p>
+              <p className="text-gray-500 font-semibold text-xs my-2">Nov 23, 2024</p>
+              <h2 className="text-lg font-semibold mb-3 w-full">Considerations Before Installing Solar Panels on Roof</h2>
+              <p className=" text-gray-700 leading-relaxed">Learn about roof suitability, installation costs, and permits to consider before making the decision to go solar</p>
             </div>
           </div>
           <div className="w-auto">
             <figure>
-              <img src={SolarFarm} alt="Shoes" className="w-full h-48 object-cover rounded-2xl" />
+              <img src={SolarFarm} alt="Shoes" className="w-full h-72 object-cover rounded-3xl" />
             </figure>
             <div className="p-2 text-start">
-              <p className="text-green-700 font-semibold text-xs my-2">October 15, 2024</p>
+              <p className="text-gray-500 font-semibold text-xs my-2">Des 7, 2024</p>
               <h2 className="text-lg font-semibold mb-3 w-full">How Wind Turbines Generate Electricity</h2>
-              <p className="text-sm text-gray-700 leading-relaxed">Understand the science behind wind turbines, from harnessing wind energy to converting it into usable electricity</p>
+              <p className=" text-gray-700 leading-relaxed">Understand the science behind wind turbines, from harnessing wind energy to converting it into usable electricity</p>
             </div>
           </div>
         </div>

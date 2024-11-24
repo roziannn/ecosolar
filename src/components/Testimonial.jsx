@@ -1,5 +1,5 @@
 import React from "react";
-import { Star, CircleArrowLeft, CircleArrowRight, Circle } from "lucide-react";
+import { Star, ArrowRight } from "lucide-react";
 
 const Testimonial = () => {
   const totalStars = 5;
@@ -13,10 +13,9 @@ const Testimonial = () => {
 
           <div className="flex justify-between">
             <p className="mt-4 max-w-lg text-4xl text-gray-800 font-bold leading-snug tracking-wide">A few Reviews From Our Happy Customers</p>
-            {/* <h2 className="flex justify-normal gap-1 text-gray-400">
-              <CircleArrowLeft size={32} />
-              <CircleArrowRight size={32} />
-            </h2> */}
+            <button className="btn btn-default rounded-3xl ">
+              <ArrowRight />
+            </button>
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -34,10 +33,10 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">
-              "Thanks to Ecosolar, we are now fully reliant on solar energy. The product is durable, has a modern design, and is incredibly efficient. The best investment ever"
+            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">
+              "Thanks to Ecosolar, we are now fully reliant on solar energy. The product is durable, has a modern design, and incredibly efficient. The best investment ever"
             </p>
-            <p className="text-sm text-start font-semibold text-gray-500 mb-0">Surabaya, Indonesia</p>
+            <p className="text-xs text-start font-semibold text-gray-500 mb-0">Operation Manager</p>
           </div>
           <div className="rounded-2xl bg-gray-50 p-6">
             <div className="flex items-center mb-4">
@@ -53,8 +52,8 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">"I've been using Ecosolar for 6 months now, and I couldn’t be happier. It’s a reliable product that has helped us save energy.."</p>
-            <p className="text-sm text-start font-semibold text-gray-500 mb-0">Bandung, Indonesia</p>
+            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">"I've been using Ecosolar for 6 months now, and I couldn’t be happier. It’s a reliable product that has helped us save energy.."</p>
+            <p className="text-xs text-start font-semibold text-gray-500 mb-0">Facilities Engineer</p>
           </div>
           <div className="rounded-2xl bg-gray-50 p-6">
             <div className="flex items-center mb-4">
@@ -70,10 +69,10 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">
+            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">
               "The installation was simple, and our electricity bills have significantly decreased! Absolutely satisfied with its performance, and it's eco-friendly too!!"
             </p>
-            <p className="text-sm text-start font-semibold text-gray-500 mb-0">Brisbane, Australia</p>
+            <p className="text-xs text-start font-semibold text-gray-500 mb-0">Residential Homeowner</p>
           </div>
           <div className="rounded-2xl bg-gray-50 p-6">
             <div className="flex items-center mb-4">
@@ -89,10 +88,10 @@ const Testimonial = () => {
                 </div>
               </div>
             </div>
-            <p className="text-start text-gray-900 italic mb-4 leading-relaxed">
+            <p className="text-start text-gray-900 italic font-semibold mb-4 leading-relaxed">
               "Perfect solution for reducing our carbon footprint. Its performance is stable even on cloudy days. The support team was also very helpful during the installation process"
             </p>
-            <p className="text-sm text-start font-semibold text-gray-500 mb-0">Darfield, New Zealand</p>
+            <p className="text-xs text-start font-semibold text-gray-500 mb-0">Project Manager</p>
           </div>
         </div>
       </div>

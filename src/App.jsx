@@ -8,6 +8,7 @@ import Mission from "./components/Mission";
 import Projects from "./components/Projects";
 import Testimonial from "./components/Testimonial";
 import Blogs from "./components/Blogs";
+import Subs from "./components/Subs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Testimonial />
       <Blogs />
+      <Subs />
       <Footer />
     </>
   );
