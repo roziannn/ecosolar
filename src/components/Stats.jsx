@@ -3,8 +3,7 @@ import React from "react";
 const Stats = () => {
   return (
     <div className="py-3 px-6">
-      <div className="flex flex-col md:flex-row justify-center items-center w-full px-4 md:px-8 py-8 space-y-8 md:space-y-0 md:space-x-2">
-        {/* Stats Section */}
+      <div className="flex flex-col justify-center items-center w-full px-4 md:px-8 py-8">
         <div className="stats stats-vertical text-center lg:stats-horizontal md:grid md:grid-cols-5 md:gap-4 w-full">
           <div className="stat">
             <div className="stat-value">2M+</div>

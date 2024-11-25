@@ -6,19 +6,18 @@ const Testimonial = () => {
   const filledStars = 4;
 
   return (
-    <section className="py-12 h-screen flex items-center">
+    <section className="py-12 min-h-screen flex items-center bg-gray-100">
       <div className="container max-w-7xl mx-auto px-4">
-        <div className="text-start mb-8">
-          <h2 className="text-lg font-semibold text-gray-500">Testimonials</h2>
-
-          <div className="flex justify-between">
-            <p className="mt-4 max-w-lg text-4xl text-gray-800 font-bold leading-snug tracking-wide">A few Reviews From Our Happy Customers</p>
-            <button className="btn btn-default rounded-3xl ">
+        <div className="text-start">
+          <h2 className="text-lg font-semibold text-gray-700">Testimonials</h2>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <p className="mt-4 max-w-5xl text-xl md:text-2xl lg:text-3xl text-gray-800 font-bold leading-snug tracking-wide mb-6">A few Reviews From Our Happy Customers</p>
+            <button className="lg:mb-0 mb-4 btn btn-default rounded-3xl self-start md:self-center mt-2 md:mt-0">
               <ArrowRight />
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div className="rounded-2xl bg-gray-50 p-6">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 rounded-full overflow-hidden">

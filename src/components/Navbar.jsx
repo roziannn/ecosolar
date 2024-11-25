@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="navbar bg-base-100 text-center border-b border-slate-200 max-w-7xl px-4 mx-auto">
+    <div className="navbar bg-base-100 text-center border-b border-slate-200 max-w-7xl px-4 mx-auto justify-between">
       <img src={logo} alt="logo" width={172} />
 
       <div className="hidden lg:flex flex-1 justify-center space-x-4">

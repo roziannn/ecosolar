@@ -16,8 +16,8 @@ const Hero = () => {
       <div className="hero-overlay bg-opacity-30"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-4xl">
-          <h1 className="mb-5 text-7xl font-bold text-neutral-50">Sustainable Energy, Brighter Tomorrow</h1>
-          <p className="mb-5 text-xl font-semibold">Building a Greener Future with Solar Technology</p>
+          <h1 className="mb-5 text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold text-neutral-50">Sustainable Energy, Brighter Tomorrow</h1>
+          <p className="mb-5 text-md sm:text-lg lg:text-xl font-semibold">Building a Greener Future with Solar Technology</p>
           <div className="join mt-4 mb-8">
             <button className="btn btn-success join-item text-neutral-50 border-0 rounded-3xl">
               Get Started <MoveUpRight size={16} />
@@ -34,9 +34,9 @@ const Hero = () => {
           Smart <br /> Tomorrow <br /> 2025
         </p>
       </div>
-      <div className="absolute text-left bottom-24 left-8 w-60 bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4">
+      <div className="absolute text-left hidden md:block bottom-8 left-8 w-60 bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4">
         <p className="text-md font-bold text-neutral-300">Eco-Friendly Solutions</p>
-        <p className="text-xs mt-1 text-neutral-300 ">Join us in creating a world where eco-friendly choices lead to positive changes for the environment and your future.</p>
+        <p className="text-xs mt-1 text-neutral-300">Join us in creating a world where eco-friendly choices lead to positive changes for the environment and your future.</p>
       </div>
     </div>
   );
